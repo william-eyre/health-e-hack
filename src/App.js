@@ -12,10 +12,21 @@ import bakedBeans from "./assets/baked-beans.jpeg";
 import betterBakedBeans from "./assets/baked-beans-better.jpeg";
 import fruitPastels from "./assets/fruit-pastels.jpeg";
 import fruitPastelsBetter from "./assets/fruit-pastels-better.jpeg";
-import mushrooms from "./assets/mushrooms.jpeg"
-import superMushrooms from "./assets/super mushrooms.JPG"
-import pasta from "./assets/JS SPAGHETTI PASTA 500G.JPEG"
-import betterPasta from "./assets/high-fibre-sapghetti.jpeg"
+import mushrooms from "./assets/mushrooms.jpeg";
+import superMushrooms from "./assets/super mushrooms.JPG";
+import pasta from "./assets/JS SPAGHETTI PASTA 500G.JPEG";
+import betterPasta from "./assets/high-fibre-sapghetti.jpeg";
+import softWhiteCheese from "./assets/JS Soft White Cheese 300g.jpeg";
+import lightSoftWhiteCheese from "./assets/lighter-soft-cheese.jpeg";
+import biscuits from "./assets/McVitie%27s Digestives The Original 250g.jpeg";
+import lightBiscuits from "./assets/McVitie%27s Digestives Light 300g.jpeg";
+import bread from "./assets/JS Medium sliced white bread.jpeg";
+import brownBread from "./assets/JS Medium sliced wholemeal bread.jpeg";
+import mayonnaise from "./assets/MAYONNAISE.jpeg";
+import lightMayonnaise from "./assets/JS REDUCED FAT MAYONNAISE 480.jpeg";
+import oliveSpread from "./assets/JS OLIVE SPREAD 500.jpeg";
+import lighterOliveSpread from "./assets/lighter oliver spread.JPG";
+
 
 class App extends Component {
   render() {
@@ -83,32 +94,32 @@ class App extends Component {
                 foodItem="JS Light soft cheese "
                 healthyOption="JS HIGH FIBRE WHITE SPAGHETTI 500"
                 nectarPoints="10"
-                imgSrc={pasta}
-                healthyImgSrc={betterPasta}/>
+                imgSrc={softWhiteCheese}
+                healthyImgSrc={lightSoftWhiteCheese}/>
             <FoodItemContainer
                 foodItem="McVitie's Digestives The Original 250g"
                 healthyOption="McVitie's Digestives Light 300g"
                 nectarPoints="10"
-                imgSrc={pasta}
-                healthyImgSrc={betterPasta}/>
+                imgSrc={biscuits}
+                healthyImgSrc={lightBiscuits}/>
             <FoodItemContainer
                 foodItem="JS Medium sliced white bread"
                 healthyOption="JS Medium sliced wholemeal bread"
                 nectarPoints="10"
-                imgSrc={pasta}
-                healthyImgSrc={betterPasta}/>
+                imgSrc={bread}
+                healthyImgSrc={brownBread}/>
             <FoodItemContainer
                 foodItem="JS MAYONNAISE 500"
                 healthyOption="JS REDUCED FAT MAYONNAISE 480"
                 nectarPoints="10"
-                imgSrc={pasta}
-                healthyImgSrc={betterPasta}/>
+                imgSrc={mayonnaise}
+                healthyImgSrc={lightMayonnaise}/>
             <FoodItemContainer
                 foodItem="JS OLIVE SPREAD 500"
                 healthyOption="JS OLIVE LIGHT SPREAD 500"
                 nectarPoints="10"
-                imgSrc={pasta}
-                healthyImgSrc={betterPasta}/>
+                imgSrc={oliveSpread}
+                healthyImgSrc={lighterOliveSpread}/>
           </div>
           </body>
         </div>

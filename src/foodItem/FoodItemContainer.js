@@ -20,11 +20,11 @@ class FoodItemContainer extends React.Component {
         !this.state.swapped ?
             <div className="food-item-container" onClick={this.swapItem}>
               <div>
-                <Card className="card">
+                <Card>
                   <p>
                     <img src={this.props.imgSrc} alt="unhealthyOption"/>
                   </p>
-                  <h3>{foodItem}</h3>
+                  <h4>{foodItem}</h4>
                 </Card>
               </div>
 
@@ -35,11 +35,11 @@ class FoodItemContainer extends React.Component {
               </div>
 
               <div>
-                <Card className="card">
+                <Card>
                   <p>
                     <img src={this.props.healthyImgSrc} alt="healthyOption"/>
                   </p>
-                  <h3>{healthyOption}</h3>
+                  <h4>{healthyOption}</h4>
                   <p>Swap now for {this.props.nectarPoints} Nectar points</p>
                 </Card>
               </div>
@@ -48,11 +48,11 @@ class FoodItemContainer extends React.Component {
             <div className="food-item-container" onClick={this.swapItem}>
 
               <div>
-                <Card className="card">
+                <Card>
                   <p>
                     <img src={this.props.healthyImgSrc} alt="healthyOption"/>
                   </p>
-                  <h3>{healthyOption}</h3>
+                  <h4>{healthyOption}</h4>
                 </Card>
               </div>
 
@@ -63,11 +63,11 @@ class FoodItemContainer extends React.Component {
               </div>
 
               <div>
-                <Card className="card">
+                <Card>
                   <p>
                     <img src={this.props.imgSrc} alt="unhealthyOption"/>
                   </p>
-                  <h3>{foodItem}</h3>
+                  <h4>{foodItem}</h4>
                 </Card>
               </div>
             </div>
