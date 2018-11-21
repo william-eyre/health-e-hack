@@ -11,12 +11,12 @@ class NutritionKey extends React.Component {
         <Card className="nutrition-key">
           <h3>Nutrition key</h3>
           <ul>
-            <li><Tick style={{color: 'brown'}}/> More fibre</li>
+            <li><Tick style={{color: '#ff3737'}}/> More fibre</li>
             <li><Tick style={{color: 'blue'}}/>Less sugar</li>
-            <li><Tick style={{color: 'Navy Blue'}}/>Less Salt</li>
-            <li><Tick style={{color: 'Yellow'}}/>Less fat</li>
+            <li><Tick style={{color: '#5ffffa'}}/>Less Salt</li>
+            <li><Tick style={{color: '#daa520'}}/>Less fat</li>
             <li><Tick style={{color: 'purple'}}/>More vitamins</li>
-            <li><Tick style={{color: 'green'}}/>Lower calories</li>
+            <li><Tick style={{color: 'green'}}/>Less calories</li>
           </ul>
         </Card>
     )
