@@ -57,27 +57,27 @@ class App extends Component {
           <body>
           <div>
             <h3>Swap for healthier options</h3>
-            <p>You told us you wanted to have less sugar and salt in your diet,
-              so here are some options
-              for you.</p>
+            <p>You told us you wanted simple swaps to help you live well for
+              less.
+            </p>
             <div className="key">
               <NutritionKey/>
             </div>
 
             <div>
               <FoodItemContainer
-                  foodItem="JS BAKED BEANS IN TOMATO SAUCE 200"
-                  healthyOption="JS BAKED BEANS IN RED SUGAR & SALT 200"
+                  foodItem="JS baked beans in tomato sauce 200"
+                  healthyOption="JS baked beans in red sugar & salt 200"
                   nectarPoints="10"
                   imgSrc={bakedBeans}
                   healthyImgSrc={betterBakedBeans}
                   reasonToSwap={<ul>
                     <Tick style={{color: 'blue'}}/>
-                    <Tick style={{color: 'navy'}}/>
+                    <Tick style={{color: '#5ffffa'}}/>
                   </ul>}/>
               <FoodItemContainer
-                  foodItem="ROWNTREES FRUIT PASTILLES BAG 150"
-                  healthyOption="ROWNTREES PASTILLES REDUCED SUGAR 110"
+                  foodItem="Rowntrees fruit pastilles bag 150"
+                  healthyOption="Rowntrees pastilles reduced sugar 110"
                   nectarPoints="10"
                   imgSrc={fruitPastels}
                   healthyImgSrc={fruitPastelsBetter}
@@ -88,7 +88,7 @@ class App extends Component {
                   nectarPoints="10"
                   imgSrc={semiSkimmedMilk}
                   healthyImgSrc={onePercentMilk}
-                  reasonToSwap={<Tick style={{color: 'Yellow'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#daa520'}}/>}/>
               <FoodItemContainer
                   foodItem="Sainsbury's Closed Cup White Mushrooms 300g "
                   healthyOption="Sainsburys closed cup white super mushrooms 300g"
@@ -97,47 +97,47 @@ class App extends Component {
                   healthyImgSrc={superMushrooms}
                   reasonToSwap={<Tick style={{color: 'purple'}}/>}/>
               <FoodItemContainer
-                  foodItem="JS SPAGHETTI PASTA 500G"
-                  healthyOption="JS HIGH FIBRE WHITE SPAGHETTI 500"
+                  foodItem="JS Spaghetti pasta 500G"
+                  healthyOption="JS high fibre white spaghetti 500"
                   nectarPoints="10"
                   imgSrc={pasta}
                   healthyImgSrc={betterPasta}
-                  reasonToSwap={<Tick style={{color: 'brown'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#ff3737'}}/>}/>
               <FoodItemContainer
-                  foodItem="JS Light soft cheese "
-                  healthyOption="JS HIGH FIBRE WHITE SPAGHETTI 500"
+                  foodItem="JS Soft White Cheese 300g"
+                  healthyOption="JS Light soft cheese"
                   nectarPoints="10"
                   imgSrc={softWhiteCheese}
                   healthyImgSrc={lightSoftWhiteCheese}
-                  reasonToSwap={<Tick style={{color: 'Yellow'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#daa520'}}/>}/>
               <FoodItemContainer
                   foodItem="McVitie's Digestives The Original 250g"
                   healthyOption="McVitie's Digestives Light 300g"
                   nectarPoints="10"
                   imgSrc={biscuits}
                   healthyImgSrc={lightBiscuits}
-                  reasonToSwap={<Tick style={{color: 'Yellow'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#daa520'}}/>}/>
               <FoodItemContainer
                   foodItem="JS Medium sliced white bread"
                   healthyOption="JS Medium sliced wholemeal bread"
                   nectarPoints="10"
                   imgSrc={bread}
                   healthyImgSrc={brownBread}
-                  reasonToSwap={<Tick style={{color: 'brown'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#ff3737'}}/>}/>
               <FoodItemContainer
-                  foodItem="JS MAYONNAISE 500"
-                  healthyOption="JS REDUCED FAT MAYONNAISE 480"
+                  foodItem="JS mayonnaise 500"
+                  healthyOption="JS reduced fat mayonnaise 480"
                   nectarPoints="10"
                   imgSrc={mayonnaise}
                   healthyImgSrc={lightMayonnaise}
-                  reasonToSwap={<Tick style={{color: 'Yellow'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#daa520'}}/>}/>
               <FoodItemContainer
-                  foodItem="JS OLIVE SPREAD 500"
-                  healthyOption="JS OLIVE LIGHT SPREAD 500"
+                  foodItem="JS olive spread 500"
+                  healthyOption="JS olive light spread 500"
                   nectarPoints="10"
                   imgSrc={oliveSpread}
                   healthyImgSrc={lighterOliveSpread}
-                  reasonToSwap={<Tick style={{color: 'Yellow'}}/>}/>
+                  reasonToSwap={<Tick style={{color: '#daa520'}}/>}/>
             </div>
           </div>
           </body>
