@@ -1,10 +1,19 @@
 .food-item-container {
   display: flex;
   margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+
+  div {
+    width: 300px;
+    height: 400px;
+  }
 }
 
 .swap-button {
   margin-right: 10px;
   margin-left: 10px;
-  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

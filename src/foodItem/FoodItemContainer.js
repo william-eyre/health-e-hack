@@ -19,13 +19,15 @@ class FoodItemContainer extends React.Component {
     return (
         !this.state.swapped ?
             <div className="food-item-container" onClick={this.swapItem}>
-              <Card>
-                <div>
-                  <img src={this.props.imgSrc} alt="unhealthyOption"/>
-                </div>
-                <h3>{foodItem}</h3>
-                <p></p>
-              </Card>
+              <div>
+                <Card className="card">
+                  <p>
+                    <img src={this.props.imgSrc} alt="unhealthyOption"/>
+                  </p>
+                  <h3>{foodItem}</h3>
+                  <p></p>
+                </Card>
+              </div>
 
               <div className="swap-button">
                 <FilledButton>
@@ -33,24 +35,28 @@ class FoodItemContainer extends React.Component {
                 </FilledButton>
               </div>
 
-              <Card>
-                <div>
-                  <img src={this.props.healthyImgSrc} alt="healthyOption"/>
-                </div>
-                <h3>{healthyOption}</h3>
-                <p></p>
-              </Card>
+              <div>
+                <Card className="card">
+                  <p>
+                    <img src={this.props.healthyImgSrc} alt="healthyOption"/>
+                  </p>
+                  <h3>{healthyOption}</h3>
+                  <p></p>
+                </Card>
+              </div>
             </div>
             :
             <div className="food-item-container" onClick={this.swapItem}>
 
-              <Card>
-                <div>
-                  <img src={this.props.healthyImgSrc} alt="healthyOption"/>
-                </div>
-                <h3>{healthyOption}</h3>
-                <p></p>
-              </Card>
+              <div>
+                <Card className="card">
+                  <p>
+                    <img src={this.props.healthyImgSrc} alt="healthyOption"/>
+                  </p>
+                  <h3>{healthyOption}</h3>
+                  <p></p>
+                </Card>
+              </div>
 
               <div className="swap-button">
                 <FilledButton>
@@ -58,17 +64,16 @@ class FoodItemContainer extends React.Component {
                 </FilledButton>
               </div>
 
-              <Card>
-                <div>
-                  <img src={this.props.imgSrc} alt="unhealthyOption"/>
-                </div>
-                <h3>{foodItem}</h3>
-                <p></p>
-              </Card>
-
-
+              <div>
+                <Card className="card">
+                  <p>
+                    <img src={this.props.imgSrc} alt="unhealthyOption"/>
+                  </p>
+                  <h3>{foodItem}</h3>
+                  <p></p>
+                </Card>
+              </div>
             </div>
-
     )
   }
 }

@@ -6,6 +6,7 @@ import {
 import {Sainsburys} from "luna-images";
 import {OverflowMenu, Settings} from "luna-icons";
 import FoodItemContainer from "./foodItem/FoodItemContainer";
+import mushroom from "./assets/mushrooms.jpeg";
 
 class App extends Component {
   render() {
@@ -35,8 +36,9 @@ class App extends Component {
           </div>
           <body>
           <div>
-            <FoodItemContainer foodItem="Cheese"
-                               healthyOption="Low fat Cheese"/>
+            <FoodItemContainer foodItem="Sainsbury's Closed Cup White Mushrooms 300g "
+                               healthyOption="Sainsburys closed cup white super mushrooms 300g"
+                               imgSrc={mushroom}/>
             <FoodItemContainer foodItem="Yoghurt"
                                healthyOption="Low fat yoghurt"/>
             <FoodItemContainer foodItem="Coke" healthyOption="Diet Coke"/>
