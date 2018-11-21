@@ -41,6 +41,7 @@ class FoodItemContainer extends React.Component {
                   </p>
                   <h4>{healthyOption}</h4>
                   <p>Swap now for {this.props.nectarPoints} Nectar points</p>
+                  <p>{this.props.reasonToSwap}</p>
                 </Card>
               </div>
             </div>
