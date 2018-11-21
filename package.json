@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "luna-icons": "https://cdn.luna.js-devops.co.uk/pkg/luna-icons/v1.0.5.tgz",
+    "luna-images": "https://cdn.luna.js-devops.co.uk/pkg/luna-images/v1.0.5.tgz",
+    "luna-react": "https://cdn.luna.js-devops.co.uk/pkg/luna-react/v3.20.9.tgz",
+    "luna-style": "https://cdn.luna.js-devops.co.uk/pkg/luna-style/v2.13.5.tgz",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
 }
