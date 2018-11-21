@@ -25,7 +25,6 @@ class FoodItemContainer extends React.Component {
                     <img src={this.props.imgSrc} alt="unhealthyOption"/>
                   </p>
                   <h3>{foodItem}</h3>
-                  <p></p>
                 </Card>
               </div>
 
@@ -41,7 +40,7 @@ class FoodItemContainer extends React.Component {
                     <img src={this.props.healthyImgSrc} alt="healthyOption"/>
                   </p>
                   <h3>{healthyOption}</h3>
-                  <p></p>
+                  <p>Swap now for {this.props.nectarPoints} Nectar points</p>
                 </Card>
               </div>
             </div>
@@ -54,13 +53,12 @@ class FoodItemContainer extends React.Component {
                     <img src={this.props.healthyImgSrc} alt="healthyOption"/>
                   </p>
                   <h3>{healthyOption}</h3>
-                  <p></p>
                 </Card>
               </div>
 
               <div className="swap-button">
                 <FilledButton>
-                  Swap
+                  Undo
                 </FilledButton>
               </div>
 
@@ -70,7 +68,6 @@ class FoodItemContainer extends React.Component {
                     <img src={this.props.imgSrc} alt="unhealthyOption"/>
                   </p>
                   <h3>{foodItem}</h3>
-                  <p></p>
                 </Card>
               </div>
             </div>
